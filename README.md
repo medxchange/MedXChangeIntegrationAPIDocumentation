@@ -8,13 +8,17 @@ The API is a [REST API]. All request/response formats are [JSON].
 * [See if the concepts used by the API are familiar to you] []
 * Familiarize yourself with API functionality
 * Read the MIAPI [API Terms of Use][]
-* Hack away
+* Hack away!
+
+## SDK
+
+* TBD
 
 ## Authentication
 
 Before you can access any endpoint, you must first have a valid username and password setup on the device you are connecting with. Consult the manual for your MedXChange device to create a user that will be used for remote access to the device.
 
-Every endpoint defined requires authentication, unless stated otherwise. A valid username and password must be provided to the [AUTHENTICATE] (endpoints/misc/authenticate.md) endpoint to retrieve a valid authentication token to use for each subsequent HTTP request. You must add the token to the header of each HTTP request being made to the device.
+Every endpoint defined requires authentication, unless stated otherwise. A valid username and password must be provided to the [<code>AUTHENTICATE</code>] (endpoints/misc/authenticate.md) endpoint to retrieve a valid authentication token to use for each subsequent HTTP request. You must add the token to the header of each HTTP request being made to the device.
 
 ```
 token: {your authentication token here}
@@ -29,15 +33,22 @@ If your authentication token is invalid, you will receive a `HTTP 401` response 
 }
 ```
 
-## SDK
-
-* TBD
 
 ## Endpoints
 
-## Authentication
+### Miscellaneous
 
-* TBD
+- **[<code>AUTHENTICATE</code>](endpoints/misc/authenticate.md)**
+
+### Cases
+
+### MediaItems
+
+### Physicains
+
+### Patient Fields
+
+### Copy
 
 ## FAQ
 
