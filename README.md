@@ -1,6 +1,6 @@
 # MedXChange Integration (MI) API
 
-MedXChange provides programmatic access to case data and media items. The API is refered to as MIAPI, which stands for MedXChangeIntegrationAPI.
+MedXChange provides programmatic access to case data and media items. The API is refered to as MIAPI, which stands for **M**edXChange **I**ntegration**API**.
 
 The API is a [REST API]. All request/response formats are [JSON].
 
