@@ -39,8 +39,21 @@ If your authentication token is invalid, you will receive a `HTTP 401` response 
 ### Miscellaneous
 
 - **[<code>AUTHENTICATE</code>](endpoints/misc/authenticate.md)**
+- **[<code>LIVE_STREAMING_STATUS</code>](endpoints/misc/livestreamingstatus.md)**
+- **[<code>MODULE_STATUS</code>](endpoints/misc/modulestatus.md)**
+- **[<code>VERSION</code>](endpoints/misc/version.md)**
 
 ### Cases
+
+- **[<code>ALL_CASES</code>](endpoints/cases/allcases.md)**
+- **[<code>REVIEW_CASES</code>](endpoints/cases/reviewcases.md)**
+- **[<code>WORKLIST_CASES</code>](endpoints/cases/worklistcases.md)**
+- **[<code>CURRENT_CASE</code>](endpoints/cases/currentcase.md)**
+- **[<code>GET_CASE</code>](endpoints/cases/getcase.md)**
+- **[<code>GET_CASE_FOR_EDIT</code>](endpoints/cases/getcaseforedit.md)**
+- **[<code>INSERT_CASE</code>](endpoints/cases/insertcase.md)**
+- **[<code>UPDATE_CASE</code>](endpoints/cases/updatecase.md)**
+- **[<code>DELETE_CASE</code>](endpoints/cases/deletecase.md)**
 
 ### MediaItems
 
