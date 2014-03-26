@@ -57,6 +57,12 @@ If your authentication token is invalid, you will receive a `HTTP 401` response 
 
 ### MediaItems
 
+- **[<code>MEDIA_ITEMS_FOR_CASE</code>](endpoints/media_items/mediaitemsforcase.md)**
+- **[<code>RECENT_MEDIA_ITEMS</code>](endpoints/media_items/recentmediaitems.md)**
+- **[<code>DELETE_MEDIA_ITEM</code>](endpoints/media_items/deletemediaitem.md)**
+- **[<code>MEDIA_ITEM_THUMBNAIL</code>](endpoints/media_items/mediaitemthumbnail.md)**
+- **[<code>MEDIA_ITEM_FILE</code>](endpoints/media_items/mediaitemfile.md)**
+
 ### Physicains
 
 ### Patient Fields
