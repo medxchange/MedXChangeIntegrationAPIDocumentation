@@ -43,7 +43,7 @@ Got rust on your skills? No worries. Here are the docs you might need to get sta
 - Data serialization with [JSON][] (or see a [quick tutorial][])
 
 [See if the concepts used by the API are familiar to you]: https://tbd.com/#what-do-i-need-to-know-before-i-start-using-the-api
-[API Terms of Use]: (basic/termins_of_use.md)
+[API Terms of Use]: basic/termins_of_use.md
 [JSON]: http://json.org
 [REST software pattern]: http://en.wikipedia.org/wiki/Representational_State_Transfer
 [REST API]: http://en.wikipedia.org/wiki/Representational_State_Transfer "RESTful"
