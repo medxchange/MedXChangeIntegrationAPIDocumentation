@@ -4,23 +4,30 @@ MedXChange provides programmatic access to case data and media items. The API is
 
 The API is a [REST API]. All request/response formats are [JSON].
 
-***
-
 ## Checklist
 * [See if the concepts used by the API are familiar to you] []
 * Familiarize yourself with API functionality
 * Read the MIAPI [API Terms of Use][]
 * Hack away
 
-***
+## Authentication
 
-## Basics
+Before you can access any endpoint, you must first have a valid username and password setup on the device you are connecting with. Consult the manual for your MedXChange device to create a user that will be used for remote access to the device.
 
-* TBD
+Every endpoint defined requires authentication, unless stated otherwise. A valid username and password must be provided to the [authenticate] (endpoints/misc/authenticate.md) endpoint to retrieve a valid authentication token to use for each subsequent HTTP request. You must add the token to the header of each HTTP request being made to the device.
 
-## Examples
+```
+token: {your authentication token here}
+```
 
-* TBD
+If your authentication token is invalid, you will receive a `HTTP 401` response with the following json response.
+
+``` json
+{
+  "TokenStatus" : 2, // 2 = expired, 3 = invalid
+  "ErrorMessage" : "Your authorization token has expired."
+}
+```
 
 ## SDK
 
