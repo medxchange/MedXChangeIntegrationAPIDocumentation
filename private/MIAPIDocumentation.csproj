@@ -113,8 +113,8 @@
     <None Include="..\endpoints\patient_fields\enabledisablepatientfield.md">
       <Link>endpoints\patient_fields\enabledisablepatientfield.md</Link>
     </None>
-    <None Include="..\endpoints\patient_fields\getpatientfield.md">
-      <Link>endpoints\patient_fields\getpatientfield.md</Link>
+    <None Include="..\endpoints\patient_fields\getpatientfields.md">
+      <Link>endpoints\patient_fields\getpatientfields.md</Link>
     </None>
     <None Include="..\endpoints\patient_fields\insertorupdatepatientfield.md">
       <Link>endpoints\patient_fields\insertorupdatepatientfield.md</Link>

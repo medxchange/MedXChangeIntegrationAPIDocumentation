@@ -65,11 +65,30 @@ If your authentication token is invalid, you will receive a `HTTP 401` response 
 
 ### Physicains
 
+- **[<code>GET_ALL_PHYSICIANS</code>](endpoints/physicians/getallphysicians.md)**
+- **[<code>GET_PHYSICIAN</code>](endpoints/physicians/getphysician.md)**
+- **[<code>DELETE_PHYSICIAN</code>](endpoints/physicians/deletephysician.md)**
+- **[<code>INSERT_OR_UPDATE_PHYSICIAN</code>](endpoints/physicians/insertorupdatephysician.md)**
+- **[<code>GET_ANNOTATIONS</code>](endpoints/physicians/getannotations.md)**
+
 ### Patient Fields
+
+- **[<code>GET_PATIENT_FIELDS</code>](endpoints/patient_fields/getpatientfields.md)**
+- **[<code>DELETE_PATIENT_FIELD</code>](endpoints/patient_fields/deletepatientfield.md)**
+- **[<code>INSERT_OR_UPDATE_PATIENT_FIELD</code>](endpoints/patient_fields/insertorupdatepatientfield.md)**
+- **[<code>ENABLE_DISABLE_PATIENT_FIELD</code>](endpoints/patient_fields/enabledisablepatientfield.md)**
 
 ### Copy
 
+- **[<code>AVAILABLE_USB_DEVICES</code>](endpoints/copy/availableusbdevices.md)**
+- **[<code>VALIDATE_LOCATION</code>](endpoints/copy/validatelocation.md)**
+- **[<code>PERFORM_COPY</code>](endpoints/copy/performcopy.md)**
+- **[<code>COPY_STATUS</code>](endpoints/copy/copystatus.md)**
+- **[<code>CANCEL_COPY</code>](endpoints/copy/cancelcopy.md)**
+
 ## FAQ
+
+* TBD
 
 ### What do I need to know before I start using the API?
 
