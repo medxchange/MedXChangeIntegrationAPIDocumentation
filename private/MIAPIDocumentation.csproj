@@ -134,6 +134,9 @@
     <None Include="..\endpoints\physicians\insertorupdatephysician.md">
       <Link>endpoints\physicians\insertorupdatephysician.md</Link>
     </None>
+    <None Include="..\endpoints\template.md">
+      <Link>endpoints\template.md</Link>
+    </None>
     <None Include="..\README.md">
       <Link>README.md</Link>
     </None>
