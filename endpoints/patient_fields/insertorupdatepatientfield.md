@@ -4,25 +4,47 @@
 
 ## Description
 
+Insert or update a patient field, with the ability to automatically assign the patient field to all physicians.
+
 ***
 
 ## Request Parameters
+
+TBD
 
 ***
 
 ## Response Parameters
 
-***
-
-## Errors
+TBD
 
 ***
 
 ## Example
 **Request**
 
-    Code Example
+	{
+	   "PatientField":{
+		  "Name":"Field 2",
+		  "DisplayName":null,
+		  "DefaultValue":null,
+		  "DataType":0,
+		  "IsRequired":false,
+		  "DisplayOrder":-1,
+		  "Options":{
+
+		  },
+		  "Id":null
+	   },
+	   "AssignToAllPhysicians":false,
+	   "ClientVersion":null
+	}
 
 **Response**
 
-    Code Example
+	{
+	   "PatientFieldId":"533aeb4e3fd66728bcd5dbde",
+	   "ErrorMessage":null,
+	   "IsSuccessful":true,
+	   "ServiceVersion":"2.2.6.9999"
+	}
