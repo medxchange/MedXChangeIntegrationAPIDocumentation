@@ -4,7 +4,7 @@
 
 ## Description
 
-Get a list of cases on the device that are filtered and sorted correctly to render a review section on the client. This request is similar to [<code>ALL_CASES</code>](../cases/allcases.md), but it returned only closed cases, sorted from last completed to oldest.
+Get a list of cases on the device that are filtered and sorted correctly to render a review section on the client. This request is similar to [<code>ALL_CASES</code>](../cases/allcases.md), but it returns only closed cases, sorted from last completed to oldest. Cases added to the worklist will not be returned, unless the case has been in progress at least once before.
 
 ***
 
