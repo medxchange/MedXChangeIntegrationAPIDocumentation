@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCAEA535-9BE2-4031-BFB7-FFA28D9BC163}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MIAPIDocumentation</RootNamespace>
+    <AssemblyName>MIAPIDocumentation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\basic\terms_of_use.md">
+      <Link>basic\terms_of_use.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\allcases.md">
+      <Link>endpoints\cases\allcases.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\currentcase.md">
+      <Link>endpoints\cases\currentcase.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\deletecase.md">
+      <Link>endpoints\cases\deletecase.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\getcase.md">
+      <Link>endpoints\cases\getcase.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\getcaseforedit.md">
+      <Link>endpoints\cases\getcaseforedit.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\insertcase.md">
+      <Link>endpoints\cases\insertcase.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\reviewcases.md">
+      <Link>endpoints\cases\reviewcases.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\updatecase.md">
+      <Link>endpoints\cases\updatecase.md</Link>
+    </None>
+    <None Include="..\endpoints\cases\worklistcases.md">
+      <Link>endpoints\cases\worklistcases.md</Link>
+    </None>
+    <None Include="..\endpoints\copy\cancelcopy.md">
+      <Link>endpoints\copy\cancelcopy.md</Link>
+    </None>
+    <None Include="..\endpoints\copy\performcopy.md">
+      <Link>endpoints\copy\performcopy.md</Link>
+    </None>
+    <None Include="..\endpoints\copy\copystatus.md">
+      <Link>endpoints\copy\copystatus.md</Link>
+    </None>
+    <None Include="..\endpoints\copy\availableusbdevices.md">
+      <Link>endpoints\copy\availableusbdevices.md</Link>
+    </None>
+    <None Include="..\endpoints\copy\validatelocation.md">
+      <Link>endpoints\copy\validatelocation.md</Link>
+    </None>
+    <None Include="..\endpoints\media_items\deletemediaitem.md">
+      <Link>endpoints\media_items\deletemediaitem.md</Link>
+    </None>
+    <None Include="..\endpoints\media_items\mediaitemfile.md">
+      <Link>endpoints\media_items\mediaitemfile.md</Link>
+    </None>
+    <None Include="..\endpoints\media_items\mediaitemsforcase.md">
+      <Link>endpoints\media_items\mediaitemsforcase.md</Link>
+    </None>
+    <None Include="..\endpoints\media_items\mediaitemthumbnail.md">
+      <Link>endpoints\media_items\mediaitemthumbnail.md</Link>
+    </None>
+    <None Include="..\endpoints\media_items\recentmediaitems.md">
+      <Link>endpoints\media_items\recentmediaitems.md</Link>
+    </None>
+    <None Include="..\endpoints\misc\authenticate.md">
+      <Link>endpoints\misc\authenticate.md</Link>
+    </None>
+    <None Include="..\endpoints\misc\clearcache.md">
+      <Link>endpoints\misc\clearcache.md</Link>
+    </None>
+    <None Include="..\endpoints\misc\livestreamingstatus.md">
+      <Link>endpoints\misc\livestreamingstatus.md</Link>
+    </None>
+    <None Include="..\endpoints\misc\modulestatus.md">
+      <Link>endpoints\misc\modulestatus.md</Link>
+    </None>
+    <None Include="..\endpoints\misc\version.md">
+      <Link>endpoints\misc\version.md</Link>
+    </None>
+    <None Include="..\endpoints\patient_fields\deletepatientfield.md">
+      <Link>endpoints\patient_fields\deletepatientfield.md</Link>
+    </None>
+    <None Include="..\endpoints\patient_fields\enabledisablepatientfield.md">
+      <Link>endpoints\patient_fields\enabledisablepatientfield.md</Link>
+    </None>
+    <None Include="..\endpoints\patient_fields\getpatientfields.md">
+      <Link>endpoints\patient_fields\getpatientfields.md</Link>
+    </None>
+    <None Include="..\endpoints\patient_fields\insertorupdatepatientfield.md">
+      <Link>endpoints\patient_fields\insertorupdatepatientfield.md</Link>
+    </None>
+    <None Include="..\endpoints\physicians\deletephysician.md">
+      <Link>endpoints\physicians\deletephysician.md</Link>
+    </None>
+    <None Include="..\endpoints\physicians\getallphysicians.md">
+      <Link>endpoints\physicians\getallphysicians.md</Link>
+    </None>
+    <None Include="..\endpoints\physicians\getannotations.md">
+      <Link>endpoints\physicians\getannotations.md</Link>
+    </None>
+    <None Include="..\endpoints\physicians\getphysician.md">
+      <Link>endpoints\physicians\getphysician.md</Link>
+    </None>
+    <None Include="..\endpoints\physicians\insertorupdatephysician.md">
+      <Link>endpoints\physicians\insertorupdatephysician.md</Link>
+    </None>
+    <None Include="..\endpoints\template.md">
+      <Link>endpoints\template.md</Link>
+    </None>
+    <None Include="..\README.md">
+      <Link>README.md</Link>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
