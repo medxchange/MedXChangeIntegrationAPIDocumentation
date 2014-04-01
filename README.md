@@ -78,14 +78,6 @@ If your authentication token is invalid, you will receive a `HTTP 401` response 
 - **[<code>INSERT_OR_UPDATE_PATIENT_FIELD</code>](endpoints/patient_fields/insertorupdatepatientfield.md)**
 - **[<code>ENABLE_DISABLE_PATIENT_FIELD</code>](endpoints/patient_fields/enabledisablepatientfield.md)**
 
-### Copy
-
-- **[<code>AVAILABLE_USB_DEVICES</code>](endpoints/copy/availableusbdevices.md)**
-- **[<code>VALIDATE_LOCATION</code>](endpoints/copy/validatelocation.md)**
-- **[<code>PERFORM_COPY</code>](endpoints/copy/performcopy.md)**
-- **[<code>COPY_STATUS</code>](endpoints/copy/copystatus.md)**
-- **[<code>CANCEL_COPY</code>](endpoints/copy/cancelcopy.md)**
-
 ## FAQ
 
 * TBD

@@ -10,13 +10,13 @@ Get all the recent media items that were taken on the device.
 
 ## Request Parameters
 
+TBD
+
 ***
 
 ## Response Parameters
 
-***
-
-## Errors
+TBD
 
 ***
 
