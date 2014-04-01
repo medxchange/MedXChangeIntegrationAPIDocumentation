@@ -4,25 +4,34 @@
 
 ## Description
 
+Delete a custom patient field by id
+
 ***
 
 ## Request Parameters
+
+TBD
 
 ***
 
 ## Response Parameters
 
-***
-
-## Errors
+TBD
 
 ***
 
 ## Example
 **Request**
 
-    Code Example
+	{
+	   "PatientFieldId":"533aeb1c3fd66728bcd5dbc6",
+	   "ClientVersion":null
+	}
 
 **Response**
 
-    Code Example
+	{
+	   "ErrorMessage":null,
+	   "IsSuccessful":true,
+	   "ServiceVersion":"2.2.6.9999"
+	}
