@@ -4,25 +4,27 @@
 
 ## Description
 
+For internal purposes.
+
 ***
 
 ## Request Parameters
+
+TBD
 
 ***
 
 ## Response Parameters
 
-***
-
-## Errors
+TBD
 
 ***
 
 ## Example
 **Request**
 
-    Code Example
+    TBD
 
 **Response**
 
-    Code Example
+    TBD
