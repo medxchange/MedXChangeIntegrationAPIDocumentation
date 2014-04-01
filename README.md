@@ -33,6 +33,14 @@ If your authentication token is invalid, you will receive a `HTTP 401` response 
 }
 ```
 
+## Request Headers
+
+Since this is a json service, all requests headers should indicate that you are sending JSON data in the request and are expecting JSON data in the response.
+
+Use these headers for every JSON request made to the device.
+
+	Content-Type: application/json; charset=utf-8
+	Accept: application/json
 
 ## Endpoints
 
