@@ -4,25 +4,36 @@
 
 ## Description
 
+Delete a collection of media items by id.
+
 ***
 
 ## Request Parameters
+
+TBD
 
 ***
 
 ## Response Parameters
 
-***
-
-## Errors
+TBD
 
 ***
 
 ## Example
 **Request**
 
-    Code Example
+	{
+	   "MediaItemIds":[
+		  "533aeb173fd66728bcd5dbc5"
+	   ],
+	   "ClientVersion":null
+	}
 
 **Response**
 
-    Code Example
+	{
+	   "ErrorMessage":null,
+	   "IsSuccessful":true,
+	   "ServiceVersion":"2.2.6.9999"
+	}
