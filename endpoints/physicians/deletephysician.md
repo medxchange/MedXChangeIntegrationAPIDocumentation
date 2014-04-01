@@ -4,25 +4,34 @@
 
 ## Description
 
+Delete a physician by id. All cases assigned to the given physician will be re-assigned to have no performing physician.
+
 ***
 
 ## Request Parameters
+
+TBD
 
 ***
 
 ## Response Parameters
 
-***
-
-## Errors
+TBD
 
 ***
 
 ## Example
 **Request**
 
-    Code Example
+	{
+	   "PhysicianId":"533aeb203fd66728bcd5dbc7",
+	   "ClientVersion":null
+	}
 
 **Response**
 
-    Code Example
+	{
+	   "ErrorMessage":null,
+	   "IsSuccessful":true,
+	   "ServiceVersion":"2.2.6.9999"
+	}
