@@ -1,5 +1,7 @@
 # MedXChange Integration (MI) API
 
+[![Join the chat at https://gitter.im/MedXChange/MedXChangeIntegrationAPIDocumentation](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MedXChange/MedXChangeIntegrationAPIDocumentation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 MedXChange provides programmatic access to case data and media items. The API is refered to as MIAPI, which stands for **M**edXChange **I**ntegration**API**.
 
 The API is a [REST API]. All request/response formats are [JSON].
