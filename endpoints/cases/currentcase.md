@@ -49,7 +49,8 @@ TBD
 		  "Facility":null,
 		  "Notes":null,
 		  "IsOpen":true,
-		  "PerformaingPhysicianId":null,
+		  "PerformaingPhysicianId":null, /*not supported anymore, but left for legacy*/
+		  "PerformingPhysician": null,
 		  "AutoPrint":false,
 		  "Archive":true,
 		  "DateCreated":"2014-04-01T15:12:56.079Z",

@@ -50,7 +50,8 @@ TBD
 		  "Facility":"f",
 		  "Notes":"notes",
 		  "IsOpen":true,
-		  "PerformaingPhysicianId":null,
+		  "PerformaingPhysicianId":null, /*not supported anymore, but left for legacy*/
+		  "PerformingPhysician": null,
 		  "AutoPrint":true,
 		  "Archive":true,
 		  "DateCreated":"2014-04-01T15:13:36.127Z",

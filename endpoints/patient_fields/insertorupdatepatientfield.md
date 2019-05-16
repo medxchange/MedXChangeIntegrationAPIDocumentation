@@ -4,7 +4,7 @@
 
 ## Description
 
-Insert or update a patient field, with the ability to automatically assign the patient field to all physicians.
+Insert or update a patient field.
 
 ***
 
@@ -36,7 +36,6 @@ TBD
 		  },
 		  "Id":null
 	   },
-	   "AssignToAllPhysicians":false,
 	   "ClientVersion":null
 	}
 

@@ -4,7 +4,7 @@
 
 ## Description
 
-Enable or disable a patient field for a physician. All patient fields are enabled for the system by default.
+Enable or disable a patient field for the user. All patient fields are enabled for the system by default.
 
 ***
 
@@ -24,7 +24,7 @@ TBD
 **Request**
 
 	{
-	   "PhysicianId":"533aeb243fd66728bcd5dbca",
+	   "PhysicianId":"", /*not supported anymore, but left for legacy*/
 	   "PatientFieldId":"533aeb243fd66728bcd5dbc8",
 	   "Action":0,
 	   "ClientVersion":null

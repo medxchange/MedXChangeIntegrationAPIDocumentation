@@ -4,7 +4,7 @@
 
 ## Description
 
-Get a list of valid fields with values populated using a case id. This is used to render a case edit page with case data. If you need to render a case insert page, retrieve the patient fields for the system/physician using the [<code>GET_PATIENT_FIELDS</code>](../patient_fields/getpatientfields.md) endpoint.
+Get a list of valid fields with values populated using a case id. This is used to render a case edit page with case data. If you need to render a case insert page, retrieve the patient fields for the system/user using the [<code>GET_PATIENT_FIELDS</code>](../patient_fields/getpatientfields.md) endpoint.
 
 ***
 
@@ -31,7 +31,7 @@ TBD
 **Response**
 
 	{
-	   "PerformingPhysicianId":null,
+	   "PerformingPhysicianId":null, /*not supported anymore, but left for legacy*/
 	   "Values":[
 		  {
 			 "Value":"First 1",

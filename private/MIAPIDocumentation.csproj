@@ -119,21 +119,6 @@
     <None Include="..\endpoints\patient_fields\insertorupdatepatientfield.md">
       <Link>endpoints\patient_fields\insertorupdatepatientfield.md</Link>
     </None>
-    <None Include="..\endpoints\physicians\deletephysician.md">
-      <Link>endpoints\physicians\deletephysician.md</Link>
-    </None>
-    <None Include="..\endpoints\physicians\getallphysicians.md">
-      <Link>endpoints\physicians\getallphysicians.md</Link>
-    </None>
-    <None Include="..\endpoints\physicians\getannotations.md">
-      <Link>endpoints\physicians\getannotations.md</Link>
-    </None>
-    <None Include="..\endpoints\physicians\getphysician.md">
-      <Link>endpoints\physicians\getphysician.md</Link>
-    </None>
-    <None Include="..\endpoints\physicians\insertorupdatephysician.md">
-      <Link>endpoints\physicians\insertorupdatephysician.md</Link>
-    </None>
     <None Include="..\endpoints\template.md">
       <Link>endpoints\template.md</Link>
     </None>

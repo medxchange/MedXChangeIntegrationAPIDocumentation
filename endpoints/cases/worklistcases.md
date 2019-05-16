@@ -53,7 +53,8 @@ TBD
 			 "Facility":null,
 			 "Notes":null,
 			 "IsOpen":true,
-			 "PerformaingPhysicianId":null,
+			 "PerformaingPhysicianId":null, /*not supported anymore, but left for legacy*/
+		  	 "PerformingPhysician": null,
 			 "AutoPrint":false,
 			 "Archive":false,
 			 "DateCreated":"2014-04-01T16:30:23.304Z",
@@ -87,7 +88,8 @@ TBD
 			 "Facility":null,
 			 "Notes":null,
 			 "IsOpen":true,
-			 "PerformaingPhysicianId":null,
+			 "PerformaingPhysicianId":null, /*not supported anymore, but left for legacy*/
+		  	 "PerformingPhysician": null,
 			 "AutoPrint":false,
 			 "Archive":false,
 			 "DateCreated":"2014-04-01T16:30:23.336Z",

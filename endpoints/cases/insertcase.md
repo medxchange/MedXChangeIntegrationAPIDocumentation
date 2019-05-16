@@ -22,7 +22,7 @@ TBD
 **Request**
 
 	{
-	   "PerformingPhysician":null,
+	   "PerformingPhysician":null, /*not supported anymore, but left for legacy*/
 	   "Values":{
 		  "AccessionNumber":"an",
 		  "Archive":true,

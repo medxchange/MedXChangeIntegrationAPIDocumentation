@@ -4,7 +4,7 @@
 
 ## Description
 
-Get all the patient fields for the system or physician.
+Get all the patient fields for the current user.
 
 ***
 
@@ -24,7 +24,7 @@ TBD
 **Request**
 
 	{
-	   "PhysicianId":null,
+	   "PhysicianId":null, /*not supported anymore, but left for legacy*/
 	   "IncludeNative":false,
 	   "ClientVersion":null
 	}
